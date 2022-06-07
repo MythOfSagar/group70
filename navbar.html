@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        #main{
+            display: flex;
+            
+            padding: 30px;
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+        }
+        img{
+            margin-right: 60px;
+        }
+        select{
+            width: 110px;
+            border: 1px solid transparent;
+            font-size: larger;
+        }
+        h2{
+            font-weight: 100;
+        }
+        #refer{
+            background-color: #f2fdff;
+            height: 55px;
+            padding: 0 30px;
+            border: transparent;
+        }
+        #main>div:last-child>button{
+            padding: 15px 20px;
+            border-radius: 5px;
+            border:1px solid rgb(214, 25, 57) ;
+            color: rgb(214, 25, 57);
+            font-size: larger;
+            background-color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="masai logo">
+        </div>
+        <div>
+            <select name="Courses" id="course">
+                <option value="COURSES">COURSES</option>
+                <option value="full stack web development">full stack web development</option>
+                <option value="Data Analytics">Data Analytics</option>
+            </select>
+        </div>
+        <div>
+            <h2>Fees & ISA</h2>
+        </div>
+        <div>
+            <h2>ABOUT US</h2>
+        </div>
+        <div><h2>HIRE FROM US</h2></div>
+        <div><h2>FAQ</h2></div>
+        <div><h2>EVENTS</h2></div>
+        <div><button id="refer">REFER AND EARN </button></div>
+        <div><button>LOGIN</button></div>
+    </div>
+</body>
+</html>
